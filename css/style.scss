@@ -1,0 +1,56 @@
+*{
+    font-size: 17px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+  
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+  
+h1{
+    font-size: 45px;
+}
+
+button {
+    border: 1px solid #009cff;
+    border-radius: 5px;
+    background-color: #d1f3ff;
+    color: #009cff;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+  
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.alignSpan{
+    color: red;
+    width: 132px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#tasks{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+  
+.task-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+:checked + label{
+    text-decoration: line-through;
+    color: grey;
+}
